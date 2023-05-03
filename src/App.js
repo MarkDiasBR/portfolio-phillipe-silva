@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import ResetStyle from './style/ResetStyle'
+import GlobalStyle from './style/GlobalStyle'
+import styled from 'styled-components';
+import Home from './pages/home/page';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScreenWithHeaderAndFooter from './components/screenWithHeaderAndFooter/component';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <ResetStyle />
+            <GlobalStyle />
+            <ScreenWithHeaderAndFooter>
+                 <BrowserRouter>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                    </Routes>
+                </BrowserRouter>               
+            </ScreenWithHeaderAndFooter>       
+        </Container>
+    );
 }
 
 export default App;
+
+const Container = styled.div`
+
+
+`
