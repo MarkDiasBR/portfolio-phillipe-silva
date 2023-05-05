@@ -11,16 +11,16 @@ export default function Header() {
                 </p>
             </Link>
             <div className="anchors">
-                <Link className="anchor" to="/sobre">
-                    <p><span>Sobre mim</span><sub>1</sub></p>
+                <Link className="anchor" to="/portfolio">
+                    <p><span>Portfólio</span><sub>1</sub></p>
                     <div className="anchor-div" />
                 </Link>
                 <Link className="anchor" to="/profissional">
                     <p><span>Profissional</span><sub>2</sub></p>
                     <div className="anchor-div" />
                 </Link>
-                <Link className="anchor" to="/porftolio">
-                    <p><span>Portfólio</span><sub>3</sub></p>
+                <Link className="anchor" to="/sobre">
+                    <p><span>Sobre mim</span><sub>3</sub></p>
                     <div className="anchor-div" />
                 </Link>
                 <Link className="anchor" to="/contato">

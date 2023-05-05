@@ -19,7 +19,7 @@ export default function Erro() {
                 <br/><br/>
                 Suporte:
                 <br/>
-                <a href="https://github.com/MarkDiasBR">GitHub @MarkDiasBR</a>
+                <a href="https://github.com/MarkDiasBR" target="_blank" rel="noopener noreferrer">GitHub @MarkDiasBR</a>
             </p>
         </Container>
     )

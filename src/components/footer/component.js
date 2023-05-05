@@ -1,7 +1,7 @@
 import { Container, TopBlock, Block } from './styled';
 import { Link } from 'react-router-dom';
 import { SvgFacebook, SvgTwitter, SvgInstagram, SvgSpotify, SvgBehance, SvgLinkedIn, SvgDownload, SvgWhatsApp } from '../../assets/svg/socialMedia.js';
-import { SvgReact, SvgReactFill, SvgCSS, SvgHTML, SvgJS, SvgReactSpring } from '../../assets/svg/technologies.js'
+import { /* SvgReact, */ SvgReactFill/* , SvgCSS, SvgHTML, SvgJS, SvgReactSpring */ } from '../../assets/svg/technologies.js'
 import { SvgLocation, SvgTrip } from '../../assets/svg/misc.js';
 
 export default function Footer() {
@@ -68,7 +68,7 @@ export default function Footer() {
 
                 </div>
                 <div className="footer-polaroid">
-                    <img src="https://mir-s3-cdn-cf.behance.net/user/115/99f68514068957.5df8e14519165.jpg" />
+                    <img src="https://mir-s3-cdn-cf.behance.net/user/115/99f68514068957.5df8e14519165.jpg" alt="Portrait" />
                     <div className="footer-polaroid-line1">
                         <SvgLocation /><p>Salvador/BA, Brasil</p>
                     </div>
@@ -80,10 +80,10 @@ export default function Footer() {
             <div className="footer-bottom-container">
                 <Block className='bloco1'>
                     <div className='footer-flags'>
-                        <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg/@@images/image" />
-                        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" /> */}
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/750px-Bandera_de_Espa%C3%B1a.svg.png" />
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png?20151118161041" />
+                        <img alt="BRA flag" src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg/@@images/image" />
+                        {/* <img alt="UK flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" /> */}
+                        <img alt="SPA flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/750px-Bandera_de_Espa%C3%B1a.svg.png" />
+                        <img alt="US flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png?20151118161041" />
                     </div>
                     <p>© 2023 Phillipe Silva<br />
                         Todos os direitos reservados</p>
