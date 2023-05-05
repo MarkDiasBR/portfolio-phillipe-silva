@@ -1,6 +1,5 @@
 import LineGrid from "../../components/css/lineGrid.js";
 import { Container, MarqueeContainer, PolaroidContainer, ContentContainer } from "./styled";
-import Polaroid from "../../components/css/polaroid.js";
 
 export default function Home() {
     return (

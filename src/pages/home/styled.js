@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,7 @@ export const Container = styled.div`
 `
 
 export const PolaroidContainer = styled.div`
+
     position: absolute;
     width: 55vw;
     height: 41.25vw;
@@ -33,10 +35,12 @@ export const ContentContainer = styled.article`
     color: #FFFFFF;
 
     & h1 {
-        font-size: 75px;
+        font-size: 105px;
         font-weight: 600;
         text-align: left;
         margin-bottom: 35px;
+        /* color: gray; */
+        color: #4b6633;
     }
 
     & p {
@@ -47,7 +51,7 @@ export const ContentContainer = styled.article`
         font-size: 20px;
         line-height: normal;
         text-indent: 48px;
-        text-align: ;
+        text-align: left;
         /*text-justify: inter-word; */
     }
 `

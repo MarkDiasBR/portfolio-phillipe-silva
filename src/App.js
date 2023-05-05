@@ -3,6 +3,7 @@ import GlobalStyle from './style/GlobalStyle'
 import styled from 'styled-components';
 import Home from './pages/home/page';
 import Metadata from './pages/metadata/page';
+import Erro from './pages/erro/page'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import ScreenWithHeaderAndFooter from './components/screenWithHeaderAndFooter/component';
 
@@ -17,6 +18,7 @@ function App() {
                         <Route path='/' element={ <Navigate to="/sobre" /> }/>
                         <Route path="/sobre" element={<Home />} />
                         <Route path="/metadata" element={<Metadata />} />
+                        <Route path="*" element={<Erro />} />
                     </Routes>
                 </ScreenWithHeaderAndFooter>               
             </BrowserRouter>      
