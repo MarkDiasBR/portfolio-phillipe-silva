@@ -21,6 +21,7 @@ export const MarqueeContainer = styled.section`
             display: flex;
             align-items: center;
             gap: 1.2vw;
+            /* text-shadow: 0 0 3px black; */
         }
 
         & .number {
@@ -34,6 +35,7 @@ export const MarqueeContainer = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
+            /* box-shadow: 0 0 3px black; */
         }
     }
 

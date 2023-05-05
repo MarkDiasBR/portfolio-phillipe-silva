@@ -11,8 +11,8 @@ export const Container = styled.div`
     /* overflow: hidden; */
     position: relative;
     margin-top: 50px;
-    margin-bottom: 250vw;
-    height: 700px;
+    margin-bottom: 260vw;
+    /* height: 700px; */
 
     & .line-grid {
         margin-bottom: 0;
@@ -21,7 +21,7 @@ export const Container = styled.div`
 
 export const ContentContainer = styled.article`
     box-sizing: border-box;
-    padding: 3vw;
+    padding: 3.5vw;
     /* margin-bottom: 1000px; */
     width: 70vw;
     font-family: 'Neue Haas Grotesk Display Pro';
@@ -30,6 +30,7 @@ export const ContentContainer = styled.article`
     background-color: #4b6633;
     position: absolute;
     top: 200px;
+    box-shadow: 0 0 3px black;
     /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -37,7 +38,7 @@ export const ContentContainer = styled.article`
     display: grid;
     grid-template-columns: repeat(auto-fill, 30vw);
     justify-content: space-between;
-    grid-gap: 3vw;
+    grid-row-gap: 3.5vw;
 
     /* &::after {
         content: '';

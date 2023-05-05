@@ -28,7 +28,7 @@ export const Container = styled.div`
         top: 0;
         right: 0;
         opacity: 0;
-        transition: opacity 0.2s ;
+        transition: opacity 0.2s;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
