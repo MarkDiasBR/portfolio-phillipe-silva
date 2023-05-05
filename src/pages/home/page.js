@@ -31,8 +31,7 @@ export default function Home() {
             <p style={{color:'rgb(20,20,20)'}}>Don't fall in love</p>
             <ContentContainer>
                 <h1>Olá!</h1>
-                <p>Eu
-                Sou o Phil. Sou formado em Comunicação Social: Publicidade e Propaganda, na FTC Salvador. Hoje trabalho no setor de marketing da Rádio Piatã FM, líder de audiência em Salvador, Bahia, onde sou produtor, faço estratégias de marketing e redes sociais, além de ser responsável pelo audiovisual da emissora.
+                <p>Sou o Phil. Sou formado em Comunicação Social: Publicidade e Propaganda, na FTC Salvador. Hoje trabalho no setor de marketing da Rádio Piatã FM, líder de audiência em Salvador, Bahia, onde sou produtor, faço estratégias de marketing e redes sociais, além de ser responsável pelo audiovisual da emissora.
 
 ​
 

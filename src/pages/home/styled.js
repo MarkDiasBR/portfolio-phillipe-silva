@@ -10,8 +10,8 @@ export const Container = styled.div`
     width: 100%;
     /* overflow: hidden; */
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 700px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 `
 
 export const PolaroidContainer = styled.div`
