@@ -38,7 +38,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className='footer-social'>
-                        <a href='https://www.behance.net/phillipesilva' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://api.whatsapp.com/send?phone=5571982875252&text=Ol%C3%A1%2C%20Phillipe!%20Venho%20do%20seu%20site%2C%20quero%20saber%20mais%20sobre%20seu%20trabalho.' target='_blank' rel='noopener noreferrer'>
                             <SvgWhatsApp />
                             {/* <p>@phillipesilva</p> */}
                             <p>WhatsApp</p>
