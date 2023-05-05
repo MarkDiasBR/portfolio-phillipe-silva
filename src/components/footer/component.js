@@ -1,7 +1,7 @@
 import { Container, TopBlock, Block } from './styled';
 import { Link } from 'react-router-dom';
-import { SvgFacebook, SvgTwitter, SvgInstagram, SvgSpotify, SvgPinterest } from '../../assets/svg/socialMedia.js';
-import { SvgReact, SvgReactFill } from '../../assets/svg/technologies.js'
+import { SvgFacebook, SvgTwitter, SvgInstagram, SvgSpotify, SvgPinterest, SvgLinkedIn } from '../../assets/svg/socialMedia.js';
+import { SvgReact, SvgReactFill, SvgCSS, SvgHTML, SvgJS, SvgReactSpring } from '../../assets/svg/technologies.js'
 
 export default function Footer() {
     return (
@@ -20,8 +20,13 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className='footer-social'>
-                        <a href='https://www.instagram.com/phillipesilva95/' target='_blank'>
+                        <a href='https://www.instagram.com/phillipesilva_/' target='_blank'>
                             <SvgInstagram /> 
+                        </a>
+                    </div>
+                    <div className='footer-social'>
+                        <a href='http://www.linkedin.com/profile/PhillipeSilva' target='_blank'>
+                            <SvgLinkedIn /> 
                         </a>
                     </div>
                     <div className='footer-social'>
@@ -38,11 +43,20 @@ export default function Footer() {
                 </Block>
                 <Block className='bloco2'>
                     <a href="mailto:phillipeshsilva@gmail.com">phillipeshsilva@gmail.com</a>
+                    {/* <div className="footer-middle-container">
+                        <SvgCSS />
+                        <SvgHTML />
+                        <SvgJS />
+                        <SvgReact />
+                        <SvgReactSpring />
+                    </div> */}
                 </Block>
                 <Block className='bloco3'>
                     
                     <div className='my-logo'>
-                        <SvgReactFill />
+                        <Link to="/metadata">
+                            <SvgReactFill />
+                        </Link>
                         <p><a href="https://github.com/MarkDiasBR">MarkDias<br/>/WebDev</a></p>
                     </div>
                 </Block>

@@ -67,19 +67,6 @@ export const TopBlock = styled.div`
     .footer-social:hover path {
         fill: lightgray;
     }
-
-    .number {
-        border-radius: 50%;
-        background-color: #000;
-        height: 30px;
-        font-weight: 600;
-        font-size: 20px;
-        width: 30px;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 `
 
 export const Block = styled.div`
@@ -135,7 +122,7 @@ export const Block = styled.div`
         &.bloco3 svg {
             height: 50px;
             position: relative;
-            top: 4px;
+            top: 8px;
             width: fit-content;
         }
 

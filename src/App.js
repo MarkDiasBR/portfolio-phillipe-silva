@@ -2,7 +2,8 @@ import ResetStyle from './style/ResetStyle'
 import GlobalStyle from './style/GlobalStyle'
 import styled from 'styled-components';
 import Home from './pages/home/page';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Metadata from './pages/metadata/page';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import ScreenWithHeaderAndFooter from './components/screenWithHeaderAndFooter/component';
 
 function App() {
@@ -10,13 +11,15 @@ function App() {
         <Container>
             <ResetStyle />
             <GlobalStyle />
-            <ScreenWithHeaderAndFooter>
-                 <BrowserRouter>
+            <BrowserRouter>
+                <ScreenWithHeaderAndFooter>
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path='/' element={ <Navigate to="/sobre" /> }/>
+                        <Route path="/sobre" element={<Home />} />
+                        <Route path="/metadata" element={<Metadata />} />
                     </Routes>
-                </BrowserRouter>               
-            </ScreenWithHeaderAndFooter>       
+                </ScreenWithHeaderAndFooter>               
+            </BrowserRouter>      
         </Container>
     );
 }

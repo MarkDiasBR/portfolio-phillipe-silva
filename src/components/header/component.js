@@ -12,10 +12,10 @@ export default function Header() {
             </a>
 
             <div className="anchors">
-                <a className="anchor" href="#">
+                <Link className="anchor" to="/sobre">
                     <p><span>Sobre mim</span><sub>1</sub></p>
                     <div className="anchor-div" />
-                </a>
+                </Link>
                 <a className="anchor" href="#">
                     <p><span>Formação</span><sub>2</sub></p>
                     <div className="anchor-div" />
