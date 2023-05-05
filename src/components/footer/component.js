@@ -2,6 +2,7 @@ import { Container, TopBlock, Block } from './styled';
 import { Link } from 'react-router-dom';
 import { SvgFacebook, SvgTwitter, SvgInstagram, SvgSpotify, SvgBehance, SvgLinkedIn, SvgDownload } from '../../assets/svg/socialMedia.js';
 import { SvgReact, SvgReactFill, SvgCSS, SvgHTML, SvgJS, SvgReactSpring } from '../../assets/svg/technologies.js'
+import { SvgLocation } from '../../assets/svg/misc.js';
 
 export default function Footer() {
     return (
@@ -50,7 +51,6 @@ export default function Footer() {
                             <p>Spotify</p>
                         </a>
                     </div>
-
                     <div className='footer-social'>
                         <a href='https://www.behance.net/phillipesilva' target='_blank' rel='noopener noreferrer'>
                             <SvgDownload />
@@ -59,10 +59,20 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
+                <div className="footer-polaroid">
+                    <img src="https://mir-s3-cdn-cf.behance.net/user/115/99f68514068957.5df8e14519165.jpg" />
+                    <SvgLocation /><p>Salvador/BA, Brasil</p>
+                </div>
             </TopBlock>
             <div className="footer-bottom-container">
                 <Block className='bloco1'>
-                   <p>© 2023 Phillipe Silva<br/>
+                    <div className='footer-flags'>
+                        <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg/@@images/image" />
+                        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" /> */}
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/750px-Bandera_de_Espa%C3%B1a.svg.png" />
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png?20151118161041" />
+                    </div>
+                    <p>© 2023 Phillipe Silva<br/>
                    Todos os direitos reservados</p>
                 </Block>
                 <Block className='bloco2'>

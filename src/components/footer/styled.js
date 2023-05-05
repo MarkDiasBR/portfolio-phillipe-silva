@@ -36,7 +36,7 @@ export const TopBlock = styled.div`
         padding-bottom: 15px;
         padding-left: 20px;
         /* width: 450px; */
-        width: 405px;
+        width: 455px;
         height: 100%;
         display: flex;
         flex-flow: column wrap;
@@ -66,7 +66,7 @@ export const TopBlock = styled.div`
             font-weight: 500;
             font-weight: bold;
             font-size: 22px;
-            color: #000;
+            color: rgb(20,20,20);
             /* display: none; */
         }
 
@@ -87,6 +87,24 @@ export const TopBlock = styled.div`
     .footer-social:hover path {
         fill: lightgray;
     }
+
+    .footer-polaroid {
+        padding: 20px;
+
+        width: 300px;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & img {
+            border-radius: 50%;
+        }
+
+        & svg {
+            width: 45px;
+        }
+    }
 `
 
 export const Block = styled.div`
@@ -101,7 +119,21 @@ export const Block = styled.div`
         font-weight: 600;
         padding: 15px;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 12px;
+
+        &.bloco1 .footer-flags {
+            display: flex;
+            gap: 5px;
+        }
+
+        &.bloco1 img {
+            height: 25px;
+            width: 35px;
+            /* object-fit: cover; */
+        }
     }
 
     &.bloco2 {
