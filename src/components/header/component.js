@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
     return (
         <Container>
-            <Link className="logoname-anchor" href="/">
+            <Link className="logoname-anchor" to="/home">
                 <p className="logoname">
                     Phillip<span className="reverse">e</span><br />
                     Silva

@@ -59,7 +59,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className='footer-social'>
-                        <a href='https://www.behance.net/phillipesilva' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.linkedin.com/ambry/?x-li-ambry-ep=AQIZ_qmnVEGzIQAAAYfqzaJXO9ps22F5OZyx9KdNriGrVmHZUxR7AN8_VLI4BBmJPEfnxYF6QfcPan0V6CS0n1VkHymzdRNWF-9vd9-KVOw0nVEsFSBt3bajoQyT87WBhb6os-rOkMsVeCE6OsPVtoIGrC6Vd-1VoAYHrdrR86vZf0541JO6ahVYp9Pk_B38CB_Le0idgV45qbrXVRwEDc5cdJ3f5CBX2sKr66nT93op-xUvn2G_90gc0gGOlkceyZ79IcY9pubSSVKE7ZV4cQqNqafoLJk2rZPtQ9pHReSHOiJMJ5ZDblbhLTzDO1Tqc-iQd0azuw9z3JMiZJ2BHrdzlAO9F-4jxSvCdqWze4c1twAmWHDikIBtR54HGkXv028fgobm-zcSYSKn8DtEmEdbdG4vu4GNlpz9cKO1r77yRQqmON9zUI9kdiZWF4UdR9VfvYJlmXIlPvnaEpQzJTahG0-oRG7G-kHk5v-K_0vKXKX03QEbMUBfUldoUQ-6vNjvE2iOELsW2PFGihkIvLtIwU5fBbsdTN2JAOGwhRktAL6JELbFLii2xPz56IrQgDLLWg&x-ambry-um-filename=Profile.pdf' target='_blank' rel='noopener noreferrer'>
                             <SvgDownload />
                             {/* <p>@phillipesilva</p> */}
                             <p>Currículo</p>

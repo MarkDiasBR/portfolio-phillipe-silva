@@ -15,9 +15,10 @@ function App() {
             <BrowserRouter>
                 <ScreenWithHeaderAndFooter>
                     <Routes>
-                        <Route path='/' element={ <Navigate to="/sobre" /> }/>
+                        <Route path='/' element={ <Navigate to="/home" /> }/>
+                        <Route path='/home' element={<Home />} />
                         <Route path="/sobre" element={<Home />} />
-                        <Route path="/metadata" element={<Metadata />} />
+                        {/* <Route path="/metadata" element={<Metadata />} /> */}
                         <Route path="*" element={<Erro />} />
                     </Routes>
                 </ScreenWithHeaderAndFooter>               
