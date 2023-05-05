@@ -92,7 +92,7 @@ export const MarqueeContainer = styled.section`
             align-items: center;
         }
     }
-  
+
     .marquee__content {
         flex-shrink: 0;
         display: flex;
@@ -100,7 +100,7 @@ export const MarqueeContainer = styled.section`
         gap: var(--gap);
         min-width: 100%;
     }
-  
+
     @keyframes scroll {
         from {
             transform: translateX(0);
@@ -109,7 +109,7 @@ export const MarqueeContainer = styled.section`
             transform: translateX(calc(-100% - var(--gap)));
         }
     }
-  
+
     /* Enable animation */
     .enable-animation .marquee__content {
         animation: scroll 100s linear infinite;

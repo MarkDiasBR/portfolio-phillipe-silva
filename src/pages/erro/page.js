@@ -21,7 +21,6 @@ export default function Erro() {
                 <br/>
                 <a href="https://github.com/MarkDiasBR">GitHub @MarkDiasBR</a>
             </p>
-            {/* <MensagemErro url={location.pathname}/> */}
         </Container>
     )
 }

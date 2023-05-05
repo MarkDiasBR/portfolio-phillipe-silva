@@ -25,33 +25,53 @@ export const TopBlock = styled.div`
     height: 250px;
     background-color: #b46633;
     margin: 0 auto;
-    font-family: 'Neue Haas Grotesk Display Pro';
+    display: flex;
+    justify-content: space-between;
+    /* font-family: 'SF Pro Display'; */
+    /* font-family: 'Neue Haas Grotesk Display Pro'; */
 
     .footer-socials {
+        box-sizing: border-box;
         padding-top: 15px;
+        padding-bottom: 15px;
         padding-left: 20px;
+        /* width: 450px; */
+        width: 405px;
+        height: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 15px;
-        
+        flex-flow: column wrap;
+        /* justify-content: flex-start; */
+        /* background-color: blue; */
+        /* gap: 12px; */
+        row-gap: 12px;
+        column-gap: 0px;
     }
 
     .footer-social {
-
+        
+        /* border: 1px solid black; */
+        width: fit-content;
+        /* background-color: red; */
+        
         & a {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            gap: 5px;
+            gap: 12px;
             text-decoration: none;
         }
 
         & p {
-            font-family: 'Windsor W03 Light', 'Neue Haas Grotesk Display Pro';
-            font-weight: 500; 
-            font-size: 30px;
+            font-family: 'SF Pro Display';
+            font-weight: 500;
+            font-weight: bold;
+            font-size: 22px;
             color: #000;
+            /* display: none; */
+        }
+
+        &:hover p {
+            color: lightgray;
         }
     }
 
