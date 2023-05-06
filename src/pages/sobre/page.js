@@ -1,5 +1,5 @@
-import LineGrid from "../../components/css/lineGrid/component.js";
-import InfiniteMarquee from "../../components/css/infiniteMarquee/component.js";
+import LineGrid from "../../components/lineGrid/component.js";
+import InfiniteMarquee from "../../components/infiniteMarquee/component.js";
 import { Container, PolaroidContainer, ContentContainer } from "./styled";
 
 

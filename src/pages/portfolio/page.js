@@ -1,7 +1,7 @@
-import LineGrid from "../../components/css/lineGrid/component.js";
-import InfiniteMarquee from "../../components/css/infiniteMarquee/component.js";
-import PortfolioItem from "../../components/css/portfolioItem/component.js"
-import { Container, ContentContainer  } from "./styled";
+import LineGrid from "../../components/lineGrid/component.js";
+import InfiniteMarquee from "../../components/infiniteMarquee/component.js";
+import PortfolioItem from "../../components/portfolioItem/component.js"
+import { Container, ContentContainer } from './styled.js';
 
 export default function Portfolio() {
     return (
@@ -18,7 +18,6 @@ export default function Portfolio() {
                 <PortfolioItem title={'Campanha dia de Yemanjá'} subtitle={'Rádio Salvador FM'} url={'https://mir-s3-cdn-cf.behance.net/projects/808/a46ed1148507467.Y3JvcCw5MDAsNzA0LDMzLDA.png'}/>
                 <PortfolioItem title={'Campanha Evolution'} subtitle={'FitDance Style'} url={'https://mir-s3-cdn-cf.behance.net/projects/808/087272125773423.Y3JvcCwxMDgwLDg0NCwwLDA.jpg'}/>
                 <PortfolioItem title={'Campanha #CrushNoStyle'} subtitle={'FitDance Style'} url={'https://mir-s3-cdn-cf.behance.net/projects/808/353d9b125773105.Y3JvcCwxMDgwLDg0NCwwLDE0NA.jpg'}/>
-                {/* <PortfolioItem title={} subtitle={} url={'https://mir-s3-cdn-cf.behance.net/projects/808/c13f62100449831.Y3JvcCw5MzQsNzMwLDM1Niw0MTg.jpg'}/> */}
                 <PortfolioItem title={'Campanha Summer ⚡ Beat - Parte 3'} subtitle={'FitDance Style'} url={'https://mir-s3-cdn-cf.behance.net/projects/808/46d2f593300731.Y3JvcCwxNDAwLDEwOTUsMCwyMTQ.png'}/>
                 <PortfolioItem title={'Remarketing Carnaval 2020'} subtitle={'FitDance Style'} url={'https://mir-s3-cdn-cf.behance.net/project_modules/fs/7b0ea292414093.5e4af1390c6ac.png'}/>
                 <PortfolioItem title={'Campanha Summer ⚡ Beat - Parte 2'} subtitle={'FitDance Style'} url={'https://mir-s3-cdn-cf.behance.net/projects/808/49aa9892055123.Y3JvcCwxNDAwLDEwOTUsMCwyOTE.png'}/>

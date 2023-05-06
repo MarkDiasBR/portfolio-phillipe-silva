@@ -6,7 +6,7 @@ export const Container = styled.div`
     /* justify-content: center; */
     align-items: center;
     /* padding-top: 50px; */
-    /* background-color: yellow; */
+    background-color: yellow;
     width: 100%;
     /* overflow: hidden; */
     position: relative;
@@ -65,8 +65,4 @@ export const ContentContainer = styled.article`
         text-align: left;
         /*text-justify: inter-word; */
     }
-`
-
-export const ContentItem = styled.div`
-
 `
