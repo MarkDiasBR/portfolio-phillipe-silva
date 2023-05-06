@@ -4,12 +4,15 @@ import JobsContainer from '../../components/jobsContainer/component.js';
 import JobItem from '../../components/jobItem/component.js';
 import { Container, ContentContainer } from './styled.js';
 
-export default function Profissional() {
+export default function Experiencia() {
     return (
         <Container>
             <LineGrid />
-            <InfiniteMarquee number={2} text={'Profissional'} />
+            <InfiniteMarquee number={2} text={'Experiência'} />
             <ContentContainer>
+                <h1>
+                    Vivência profissional
+                </h1>
                 <JobsContainer>
                     <JobItem 
                         url={'https://media.licdn.com/dms/image/C4D0BAQH4lvcwzAKN4g/company-logo_200_200/0/1649460322714?e=1691625600&v=beta&t=vbAaLnyEJa3A-N7h1eh5x46UgQ4QM_pjy6WwJ16AKjM'}

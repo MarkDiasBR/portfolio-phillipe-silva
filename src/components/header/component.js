@@ -15,8 +15,8 @@ export default function Header() {
                     <p><span>Portfólio</span><sub>1</sub></p>
                     <div className="anchor-div" />
                 </Link>
-                <Link className="anchor" to="/profissional">
-                    <p><span>Profissional</span><sub>2</sub></p>
+                <Link className="anchor" to="/experiencia">
+                    <p><span>Experiência</span><sub>2</sub></p>
                     <div className="anchor-div" />
                 </Link>
                 <Link className="anchor" to="/sobre">

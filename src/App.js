@@ -3,7 +3,7 @@ import GlobalStyle from './style/GlobalStyle';
 import ScreenWithHeaderAndFooter from './components/screenWithHeaderAndFooter/component';
 // import Home from './pages/home/page';
 import Portfolio from './pages/portfolio/page';
-import Profissional from './pages/profissional/page';
+import Experiencia from './pages/experiencia/page';
 import Sobre from './pages/sobre/page';
 import Contato from './pages/contato/page';
 // import Metadata from './pages/metadata/page';
@@ -26,7 +26,7 @@ function App() {
                         {/* <Route path='/home' element={<Home />} /> */}
                         <Route path='/portfolio' element={<Portfolio />} />
                         <Route path="/sobre" element={<Sobre />} />
-                        <Route path="/profissional" element={<Profissional />} />
+                        <Route path="/experiencia" element={<Experiencia />} />
                         <Route path="/contato" element={<Contato />} />
                         {/* <Route path="/metadata" element={<Metadata />} /> */}
                         <Route path="*" element={<Erro />} />

@@ -11,7 +11,7 @@ export const Container = styled.div`
     /* overflow: hidden; */
     position: relative;
     margin-top: 50px;
-    margin-bottom: 260vw;
+    margin-bottom: 180vw;
 
     & .line-grid {
         margin-bottom: 0;
@@ -31,5 +31,16 @@ export const ContentContainer = styled.div`
     top: 200px;
     box-shadow: 0 0 3px black;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+
+    & > h1 {
+        align-self: flex-start;
+        font-family: 'Neue Haas Grotesk Display Pro';
+        font-size: 40px;
+        font-weight: 600;
+        color: lightgray;
+        margin-bottom: 50px;
+    }
 `
